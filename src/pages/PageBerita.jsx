@@ -1,99 +1,96 @@
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable no-unused-vars */
 import React from "react";
-import { Language } from "./Language";
-import { Layanan } from "./Layanan";
-import { SearchBar } from "./SearchBar";
-import "./pageberita.css";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import BlogCarousel from "../components/BlogCarousel";
+// import { Link } from "react-router-dom";
 
-export const BlogPageBerita = () => {
+const PageBerita = () => {
   return (
-    <div className="blog-page-berita">
-      <div className="div-2">
-        <footer className="footer">
-          <div className="overlap">
-            <div className="text-wrapper-6">INFO LEBIH LANJUT</div>
-            <p className="p">Jangan Ragu Untuk Melihat Akun Media Sosial Kami.</p>
-          </div>
-          <img className="skill-icons" alt="Skill icons" src="skill-icons-instagram.svg" />
-          <img className="logos-whatsapp-icon" alt="Logos whatsapp icon" src="logos-whatsapp-icon.svg" />
-          <img className="logos-facebook" alt="Logos facebook" src="logos-facebook.svg" />
-          <img className="streamline-web" alt="Streamline web" src="streamline-web.svg" />
-          <div className="group">
-            <div className="overlap-group-3">
-              <p className="text-wrapper-7">2024 Discover Bulukumba. All Rights Reserved</p>
-              <img className="mdi-copyright" alt="Mdi copyright" src="mdi-copyright.svg" />
+    <div className="flex flex-col bg-white">
+      <Header />
+      <BlogCarousel />
+      <div className="flex flex-col items-start self-center mt-7 w-full text-base font-semibold leading-6 max-w-[1216px] text-neutral-400 max-md:max-w-full">
+        <div className="flex gap-5 justify-between self-center w-full font-light max-w-[1016px] max-md:flex-wrap max-md:max-w-full">
+          <div className="flex flex-col max-md:max-w-full">
+            <img
+              loading="lazy"
+              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/7f5ae0c0ac1db8c9617f7a9df320d77741fcbd609d3673aa0f23c9168a922fd2?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7f5ae0c0ac1db8c9617f7a9df320d77741fcbd609d3673aa0f23c9168a922fd2?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7f5ae0c0ac1db8c9617f7a9df320d77741fcbd609d3673aa0f23c9168a922fd2?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7f5ae0c0ac1db8c9617f7a9df320d77741fcbd609d3673aa0f23c9168a922fd2?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7f5ae0c0ac1db8c9617f7a9df320d77741fcbd609d3673aa0f23c9168a922fd2?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7f5ae0c0ac1db8c9617f7a9df320d77741fcbd609d3673aa0f23c9168a922fd2?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7f5ae0c0ac1db8c9617f7a9df320d77741fcbd609d3673aa0f23c9168a922fd2?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7f5ae0c0ac1db8c9617f7a9df320d77741fcbd609d3673aa0f23c9168a922fd2?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+              className="w-full shadow-sm aspect-[1.37] max-md:max-w-full"
+            />
+            <div className="self-center mt-4 italic">
+              Destinasi Wisata Terbaik 2022-2024
             </div>
           </div>
-          <img className="mage-tiktok-circle" alt="Mage tiktok circle" src="mage-tiktok-circle.svg" />
-        </footer>
-        <img className="rectangle-4" alt="Rectangle" src="rectangle-58.png" />
-        <div className="overlap-2">
-          <img className="image" alt="Image" src="image-10.png" />
-          <div className="rectangle-5" />
-          <p className="BLOG-TERBARU">
-            <span className="span">BLOG TERBARU </span>
-            <span className="text-wrapper-8">BULUKUMBA</span>
-          </p>
-          <p className="text-wrapper-9">Temukan Kabar Terbaru Dari Destinasi Wisatamu</p>
-          <div className="text-wrapper-10">Berita</div>
-          <div className="overlap-wrapper">
-            <div className="div-wrapper">
-              <div className="text-wrapper-11">Artikel</div>
-            </div>
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/b75a2d3927e16aa210000675d7fef09239e29b1b9ca10d285c501c34973ee97b?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+            className="shrink-0 self-start mt-5 aspect-square w-[50px]"
+          />
+        </div>
+        <div className="self-stretch mt-11 text-3xl font-black leading-10 text-orange-500 max-md:mt-10 max-md:max-w-full">
+          Bulukumba Dinobatkan Menjadi Destinasi Wisata Terbaik Di Sulawesi
+          Selatan
+        </div>
+        <div className="flex gap-5 justify-between mt-5 max-md:flex-wrap">
+          <div className="flex gap-2 my-auto">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/7838bc9a24fac139ab3dee2413a3d693fb18302e9f487dbeacafbf7dbfa918de?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+              className="shrink-0 w-5 aspect-square"
+            />
+            <div className="flex-auto my-auto">13 Desember 2023</div>
           </div>
-          <div className="overlap-group-wrapper">
-            <div className="div-wrapper">
-              <div className="text-wrapper-12">Event</div>
-            </div>
+          <div className="flex gap-1">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/8e0e880b706ef438dbfe6e56d9a3d6259d6d82b51a799fbf7efd7be95130ff15?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+              className="shrink-0 w-6 aspect-square"
+            />
+            <div className="my-auto">9:00 WIB</div>
+          </div>
+          <div className="flex gap-px">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/b21639f07a8b88a2a87d71bc2a706bec77be4d8e49d53844b6c388a9a07d4954?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+              className="shrink-0 w-6 aspect-square"
+            />
+            <div className="flex-auto my-auto">Events / Update</div>
           </div>
         </div>
-        <p className="bulukumba-dinobatkan">
-          Bulukumba Dinobatkan Menjadi Destinasi Wisata Terbaik&nbsp;&nbsp;Di Sulawesi Selatan
-        </p>
-        <div className="text-wrapper-13">Destinasi Wisata Terbaik 2022-2024</div>
-        <div className="text-wrapper-14">Aria Wardana (2024)</div>
-        <div className="text-wrapper-15">13 Desember 2023</div>
-        <div className="text-wrapper-16">9:00 WIB</div>
-        <div className="text-wrapper-17">Events / Update</div>
-        <p className="text-wrapper-18">
-          Bulukumba diakui sebagai destinasi wisata terbaik di Sulawesi Selatan, memperoleh penghargaan yang mengukuhkan
-          posisinya dalam industri pariwisata lokal. Keindahan alamnya yang menakjubkan dan beragamnya atraksi wisata
-          yang ditawarkan telah menarik perhatian wisatawan dari dalam dan luar negeri, menjadikannya sebagai tujuan
-          yang sangat diminati bagi para pelancong yang ingin mengeksplorasi kekayaan budaya dan alam Sulawesi Selatan.
-        </p>
-        <p className="text-wrapper-19">
-          Penghargaan ini diberikan berdasarkan berbagai kriteria, termasuk pengelolaan destinasi, fasilitas wisata, dan
-          keberlanjutan lingkungan. Bulukumba dikenal dengan pantai-pantainya yang mempesona seperti Pantai Tanjung
-          Bira, serta warisan budaya yang kaya, seperti perahu phinisi yang legendaris. Upaya pemerintah daerah dalam
-          meningkatkan infrastruktur dan promosi pariwisata juga berperan penting dalam pencapaian ini. Dengan
-          pencapaian ini, Bulukumba diharapkan dapat semakin meningkatkan jumlah kunjungan wisatawan dan memberikan
-          dampak positif bagi perekonomian lokal.
-        </p>
-        <img className="ph-calendar-bold" alt="Ph calendar bold" src="ph-calendar-bold.svg" />
-        <img className="mingcute-time-fill" alt="Mingcute time fill" src="mingcute-time-fill.svg" />
-        <img className="material-symbols-tag" alt="Material symbols tag" src="material-symbols-tag.svg" />
-        <img className="rectangle-6" alt="Rectangle" src="rectangle-59.png" />
-        <div className="header">
-          <div className="group-2">
-            <div className="overlap-group-4">
-              <img className="bulukumba" alt="Bulukumba" src="bulukumba-logo1.png" />
-              <p className="discoverbulukumba">
-                <span className="text-wrapper-20">Discover</span>
-                <span className="text-wrapper-21">Bulukumba.Com</span>
-              </p>
-            </div>
-          </div>
-          <div className="text-wrapper-22">Beranda</div>
-          <div className="text-wrapper-23">Blog</div>
-          <div className="text-wrapper-24">Profil</div>
-          <SearchBar className="search-bar" />
-          <img className="logos-whatsapp-icon-2" alt="Logos whatsapp icon" src="image.svg" />
-          <Layanan className="layanan-instance" polygon="polygon-2-5.svg" property1="default" />
-          <Language className="language-instance" polygon="polygon-2-6.svg" property1="default" />
-          <img className="skill-icons-2" alt="Skill icons" src="skill-icons-instagram-2.svg" />
+        <div className="mt-7 ml-3 leading-6 text-justify text-black max-md:max-w-full">
+          Bulukumba diakui sebagai destinasi wisata terbaik di Sulawesi Selatan,
+          memperoleh penghargaan yang mengukuhkan posisinya dalam industri
+          pariwisata lokal. Keindahan alamnya yang menakjubkan dan beragamnya
+          atraksi wisata yang ditawarkan telah menarik perhatian wisatawan dari
+          dalam dan luar negeri, menjadikannya sebagai tujuan yang sangat
+          diminati bagi para pelancong yang ingin mengeksplorasi kekayaan budaya
+          dan alam Sulawesi Selatan.
         </div>
-        <img className="logos-whatsapp-icon-3" alt="Logos whatsapp icon" src="logos-whatsapp-icon-2.svg" />
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/4ebae8dfcb3e60a711f1e833f1d6f7dd27ccf16bccb436ca0ea38ea202eb76ea?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/4ebae8dfcb3e60a711f1e833f1d6f7dd27ccf16bccb436ca0ea38ea202eb76ea?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4ebae8dfcb3e60a711f1e833f1d6f7dd27ccf16bccb436ca0ea38ea202eb76ea?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/4ebae8dfcb3e60a711f1e833f1d6f7dd27ccf16bccb436ca0ea38ea202eb76ea?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/4ebae8dfcb3e60a711f1e833f1d6f7dd27ccf16bccb436ca0ea38ea202eb76ea?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4ebae8dfcb3e60a711f1e833f1d6f7dd27ccf16bccb436ca0ea38ea202eb76ea?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/4ebae8dfcb3e60a711f1e833f1d6f7dd27ccf16bccb436ca0ea38ea202eb76ea?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/4ebae8dfcb3e60a711f1e833f1d6f7dd27ccf16bccb436ca0ea38ea202eb76ea?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+          className="mt-8 ml-28 max-w-full shadow-sm aspect-[1.72] w-[820px]"
+        />
+        <div className="self-center mt-4 italic font-light">
+          Aria Wardana (2024)
+        </div>
+        <div className="mt-11 ml-3 leading-6 text-justify text-black max-md:mt-10 max-md:max-w-full">
+          Penghargaan ini diberikan berdasarkan berbagai kriteria, termasuk
+          pengelolaan destinasi, fasilitas wisata, dan keberlanjutan lingkungan.
+          Bulukumba dikenal dengan pantai-pantainya yang mempesona seperti
+          Pantai Tanjung Bira, serta warisan budaya yang kaya, seperti perahu
+          phinisi yang legendaris. Upaya pemerintah daerah dalam meningkatkan
+          infrastruktur dan promosi pariwisata juga berperan penting dalam
+          pencapaian ini. Dengan pencapaian ini, Bulukumba diharapkan dapat
+          semakin meningkatkan jumlah kunjungan wisatawan dan memberikan dampak
+          positif bagi perekonomian lokal.
+        </div>
       </div>
+      <Footer />
     </div>
   );
-};
+}
+
+
+export default PageBerita;

@@ -1,0 +1,21 @@
+.hotel {
+    color: #ff6600;
+    font-family: 'Poppins-Black', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    -webkit-text-stroke: 1px #ffffff;
+}
+.grup1 {
+    height: 250px;
+    width: 80%;
+}
+.include {
+    box-sizing: content-box;
+    border: 1px #ff6600;
+}
+.cardImageHotel {
+    margin-top: 100px;
+}
+.harga {
+    margin-left: 140px;
+    background-color: #ff6600;
+}

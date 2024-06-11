@@ -1,0 +1,1175 @@
+.profil {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .profil .div-2 {
+    background-color: #ffffff;
+    height: 3852px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .profil .footer {
+    background-color: #fff1d6ad;
+    height: 311px;
+    left: -1px;
+    position: absolute;
+    top: 3541px;
+    width: 1440px;
+  }
+  
+  .profil .overlap {
+    height: 128px;
+    left: 376px;
+    position: absolute;
+    top: 5px;
+    width: 683px;
+  }
+  
+  .profil .text-wrapper-6 {
+    -webkit-text-stroke: 3px #ffffff;
+    color: #ff6600;
+    font-family: "Poppins-Black", Helvetica;
+    font-size: 71px;
+    font-weight: 900;
+    height: 107px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 106.5px;
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .profil .p {
+    color: #567bff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    height: 26px;
+    left: 118px;
+    letter-spacing: 0;
+    line-height: 25.5px;
+    position: absolute;
+    top: 102px;
+    white-space: nowrap;
+  }
+  
+  .profil .skill-icons {
+    height: 30px;
+    left: 705px;
+    position: absolute;
+    top: 154px;
+    width: 30px;
+  }
+  
+  .profil .logos-whatsapp-icon {
+    height: 32px;
+    left: 623px;
+    position: absolute;
+    top: 152px;
+    width: 32px;
+  }
+  
+  .profil .logos-facebook {
+    height: 30px;
+    left: 745px;
+    position: absolute;
+    top: 154px;
+    width: 30px;
+  }
+  
+  .profil .streamline-web {
+    height: 34px;
+    left: 783px;
+    position: absolute;
+    top: 152px;
+    width: 34px;
+  }
+  
+  .profil .group {
+    height: 74px;
+    left: 0;
+    position: absolute;
+    top: 237px;
+    width: 1442px;
+  }
+  
+  .profil .overlap-group-3 {
+    background-color: #ffffff;
+    height: 74px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .profil .text-wrapper-7 {
+    color: #ff6600;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    height: 26px;
+    left: 526px;
+    letter-spacing: 0;
+    line-height: 25.5px;
+    position: absolute;
+    top: 23px;
+    white-space: nowrap;
+  }
+  
+  .profil .mdi-copyright {
+    height: 24px;
+    left: 487px;
+    position: absolute;
+    top: 23px;
+    width: 24px;
+  }
+  
+  .profil .mage-tiktok-circle {
+    height: 34px;
+    left: 663px;
+    position: absolute;
+    top: 151px;
+    width: 34px;
+  }
+  
+  .profil .personal-branding {
+    height: 491px;
+    left: 0;
+    position: absolute;
+    top: 655px;
+    width: 1456px;
+  }
+  
+  .profil .overlap-2 {
+    background-color: #d9d9d93d;
+    height: 491px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .profil .div-wrapper {
+    background-image: url(./image-14.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 132px;
+    left: 276px;
+    position: absolute;
+    top: 151px;
+    width: 189px;
+  }
+  
+  .profil .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Poor Richard-Regular", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    height: 26px;
+    left: 43px;
+    letter-spacing: 0;
+    line-height: 25.5px;
+    position: absolute;
+    top: 90px;
+    white-space: nowrap;
+  }
+  
+  .profil .overlap-3 {
+    background-image: url(./image-17.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 132px;
+    left: 73px;
+    position: absolute;
+    top: 302px;
+    width: 189px;
+  }
+  
+  .profil .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Poor Richard-Regular", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    height: 26px;
+    left: 38px;
+    letter-spacing: 0;
+    line-height: 25.5px;
+    position: absolute;
+    top: 90px;
+    white-space: nowrap;
+  }
+  
+  .profil .overlap-4 {
+    background-image: url(./image-15.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 132px;
+    left: 479px;
+    position: absolute;
+    top: 151px;
+    width: 190px;
+  }
+  
+  .profil .text-wrapper-10 {
+    color: #ffffff;
+    font-family: "Poor Richard-Regular", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    height: 26px;
+    left: 49px;
+    letter-spacing: 0;
+    line-height: 25.5px;
+    position: absolute;
+    top: 90px;
+    white-space: nowrap;
+  }
+  
+  .profil .overlap-5 {
+    background-image: url(./image-19.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 132px;
+    left: 275px;
+    position: absolute;
+    top: 302px;
+    width: 190px;
+  }
+  
+  .profil .text-wrapper-11 {
+    color: #ffffff;
+    font-family: "Poor Richard-Regular", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    height: 26px;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: 25.5px;
+    position: absolute;
+    top: 90px;
+    white-space: nowrap;
+  }
+  
+  .profil .overlap-6 {
+    background-image: url(./image-16.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 124px;
+    left: 76px;
+    position: absolute;
+    top: 151px;
+    width: 182px;
+  }
+  
+  .profil .text-wrapper-12 {
+    color: #ffffff;
+    font-family: "Poor Richard-Regular", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    height: 26px;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: 25.5px;
+    position: absolute;
+    top: 90px;
+    white-space: nowrap;
+  }
+  
+  .profil .overlap-7 {
+    background-image: url(./image-20.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 132px;
+    left: 479px;
+    position: absolute;
+    top: 302px;
+    width: 190px;
+  }
+  
+  .profil .text-wrapper-13 {
+    color: #ffffff;
+    font-family: "Poor Richard-Regular", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    height: 26px;
+    left: 33px;
+    letter-spacing: 0;
+    line-height: 25.5px;
+    position: absolute;
+    top: 90px;
+    white-space: nowrap;
+  }
+  
+  .profil .overlap-group-4 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #567bff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px #ff6600;
+    height: 88px;
+    left: 95px;
+    position: absolute;
+    top: 42px;
+    width: 552px;
+  }
+  
+  .profil .discoverbulukumba {
+    color: transparent;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 27px;
+    font-weight: 700;
+    height: 41px;
+    left: 155px;
+    letter-spacing: 0;
+    line-height: 40.5px;
+    position: absolute;
+    top: 23px;
+    white-space: nowrap;
+  }
+  
+  .profil .span {
+    color: #ff6600;
+  }
+  
+  .profil .text-wrapper-14 {
+    color: #567bff;
+  }
+  
+  .profil .bulukumba {
+    height: 68px;
+    left: 40px;
+    position: absolute;
+    top: 9px;
+    width: 99px;
+  }
+  
+  .profil .discover-bulukumba {
+    color: #000000;
+    font-family: "Poor Story-Regular", Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    height: 261px;
+    left: 730px;
+    letter-spacing: 0;
+    line-height: 28.5px;
+    position: absolute;
+    text-align: justify;
+    top: 153px;
+    width: 634px;
+  }
+  
+  .profil .overlap-8 {
+    background-image: url(./image-10.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 525px;
+    left: 0;
+    position: absolute;
+    top: 130px;
+    width: 1440px;
+  }
+  
+  .profil .text-wrapper-15 {
+    color: #ffffff;
+    font-family: "Poppins-Black", Helvetica;
+    font-size: 53px;
+    font-weight: 900;
+    height: 80px;
+    left: 548px;
+    letter-spacing: 0;
+    line-height: 79.5px;
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 198px;
+    white-space: nowrap;
+  }
+  
+  .profil .text-wrapper-16 {
+    color: #ffffff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    height: 26px;
+    left: 538px;
+    letter-spacing: 0;
+    line-height: 25.5px;
+    position: absolute;
+    top: 277px;
+    white-space: nowrap;
+  }
+  
+  .profil .text-wrapper-17 {
+    -webkit-text-stroke: 3px #ffffff;
+    color: #ff6600;
+    font-family: "Poppins-Black", Helvetica;
+    font-size: 60px;
+    font-weight: 900;
+    height: 90px;
+    left: 480px;
+    letter-spacing: 0;
+    line-height: 90px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 1174px;
+    white-space: nowrap;
+  }
+  
+  .profil .dokumentasi-kegiatan {
+    -webkit-text-stroke: 3px #ffffff;
+    color: #ff6600;
+    font-family: "Poppins-Black", Helvetica;
+    font-size: 60px;
+    font-weight: 900;
+    height: 180px;
+    left: 54px;
+    letter-spacing: 0;
+    line-height: 90px;
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 3036px;
+  }
+  
+  .profil .overlap-9 {
+    background-color: #d9d9d93d;
+    border-radius: 69px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 415px;
+    left: 110px;
+    position: absolute;
+    top: 1749px;
+    width: 1220px;
+  }
+  
+  .profil .image {
+    height: 197px;
+    left: 135px;
+    object-fit: cover;
+    position: absolute;
+    top: 157px;
+    width: 172px;
+  }
+  
+  .profil .image-2 {
+    height: 226px;
+    left: 884px;
+    position: absolute;
+    top: 128px;
+    width: 196px;
+  }
+  
+  .profil .text-wrapper-18 {
+    -webkit-text-stroke: 3px #ffffff;
+    color: #ff6600;
+    font-family: "Poppins-Black", Helvetica;
+    font-size: 60px;
+    font-weight: 900;
+    height: 90px;
+    left: 333px;
+    letter-spacing: 0;
+    line-height: 90px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 5px;
+    white-space: nowrap;
+  }
+  
+  .profil .image-3 {
+    height: 181px;
+    left: 387px;
+    object-fit: cover;
+    position: absolute;
+    top: 155px;
+    width: 452px;
+  }
+  
+  .profil .overlap-10 {
+    background-color: #d9d9d959;
+    border: 3px solid;
+    border-color: #ff6600;
+    border-radius: 35px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 342px;
+    left: 133px;
+    position: absolute;
+    top: 1309px;
+    width: 308px;
+  }
+  
+  .profil .text-wrapper-19 {
+    -webkit-text-stroke: 2px #ffffff;
+    color: #567bff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 28px;
+    font-weight: 700;
+    height: 42px;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 25px;
+    white-space: nowrap;
+  }
+  
+  .profil .text-wrapper-20 {
+    color: #a2a2a2;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    height: 36px;
+    left: 31px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 76px;
+    width: 240px;
+  }
+  
+  .profil .entypo-price-tag {
+    height: 160px;
+    left: 71px;
+    position: absolute;
+    top: 137px;
+    width: 160px;
+  }
+  
+  .profil .overlap-11 {
+    background-color: #d9d9d959;
+    border: 3px solid;
+    border-color: #ff6600;
+    border-radius: 35px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 342px;
+    left: 566px;
+    position: absolute;
+    top: 1309px;
+    width: 308px;
+  }
+  
+  .profil .text-wrapper-21 {
+    -webkit-text-stroke: 2px #ffffff;
+    color: #567bff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 28px;
+    font-weight: 700;
+    height: 42px;
+    left: 66px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 25px;
+    white-space: nowrap;
+  }
+  
+  .profil .eos-icons-trusted {
+    height: 172px;
+    left: 65px;
+    position: absolute;
+    top: 139px;
+    width: 172px;
+  }
+  
+  .profil .overlap-12 {
+    background-color: #d9d9d959;
+    border: 3px solid;
+    border-color: #ff6600;
+    border-radius: 35px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 342px;
+    left: 999px;
+    position: absolute;
+    top: 1309px;
+    width: 308px;
+  }
+  
+  .profil .text-wrapper-22 {
+    color: #a2a2a2;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    height: 36px;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 76px;
+    width: 240px;
+  }
+  
+  .profil .text-wrapper-23 {
+    -webkit-text-stroke: 2px #ffffff;
+    color: #567bff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 28px;
+    font-weight: 700;
+    height: 42px;
+    left: 31px;
+    letter-spacing: 0;
+    line-height: 42px;
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 25px;
+    white-space: nowrap;
+  }
+  
+  .profil .solar-cup-star-bold {
+    height: 174px;
+    left: 62px;
+    position: absolute;
+    top: 137px;
+    width: 174px;
+  }
+  
+  .profil .overlap-13 {
+    background-color: #d9d9d93d;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 486px;
+    left: 0;
+    position: absolute;
+    top: 2277px;
+    width: 1440px;
+  }
+  
+  .profil .text-wrapper-24 {
+    -webkit-text-stroke: 3px #ffffff;
+    color: #ff6600;
+    font-family: "Poppins-Black", Helvetica;
+    font-size: 60px;
+    font-weight: 900;
+    height: 90px;
+    left: 374px;
+    letter-spacing: 0;
+    line-height: 90px;
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 18px;
+    white-space: nowrap;
+  }
+  
+  .profil .frame {
+    height: 284px;
+    left: 0;
+    overflow: hidden;
+    overflow-x: scroll;
+    position: absolute;
+    top: 123px;
+    width: 1440px;
+  }
+  
+  .profil .overlap-group-wrapper {
+    height: 242px;
+    left: 12px;
+    position: absolute;
+    top: 27px;
+    width: 641px;
+  }
+  
+  .profil .overlap-group-5 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 4px -4px 4px #ff6600b2, -4px 4px 4px #567bffb2;
+    height: 242px;
+    position: relative;
+    width: 635px;
+  }
+  
+  .profil .text-wrapper-25 {
+    color: #000000;
+    font-family: "Poor Story-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    height: 60px;
+    left: 292px;
+    letter-spacing: 0;
+    line-height: 19.5px;
+    position: absolute;
+    text-align: center;
+    top: 121px;
+    width: 298px;
+  }
+  
+  .profil .image-4 {
+    height: 242px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 248px;
+  }
+  
+  .profil .group-2 {
+    height: 21px;
+    left: 436px;
+    position: absolute;
+    top: 46px;
+    width: 20px;
+  }
+  
+  .profil .vector {
+    height: 16px;
+    left: 401px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .vector-2 {
+    height: 16px;
+    left: 437px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .vector-3 {
+    height: 16px;
+    left: 419px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .vector-4 {
+    height: 16px;
+    left: 455px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .vector-5 {
+    height: 16px;
+    left: 473px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .text-wrapper-26 {
+    color: #567bff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    height: 18px;
+    left: 389px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 77px;
+    white-space: nowrap;
+  }
+  
+  .profil .pantai-carita {
+    color: transparent;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    height: 18px;
+    left: 260px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 220px;
+    white-space: nowrap;
+  }
+  
+  .profil .text-wrapper-27 {
+    color: #ff6600f2;
+  }
+  
+  .profil .overlap-wrapper {
+    height: 242px;
+    left: 688px;
+    position: absolute;
+    top: 23px;
+    width: 641px;
+  }
+  
+  .profil .group-3 {
+    height: 21px;
+    left: 437px;
+    position: absolute;
+    top: 50px;
+    width: 20px;
+  }
+  
+  .profil .vector-6 {
+    height: 16px;
+    left: 400px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .vector-7 {
+    height: 16px;
+    left: 436px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .vector-8 {
+    height: 16px;
+    left: 418px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .text-wrapper-28 {
+    color: #567bff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    height: 18px;
+    left: 401px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 81px;
+    white-space: nowrap;
+  }
+  
+  .profil .group-4 {
+    height: 242px;
+    left: 1364px;
+    position: absolute;
+    top: 23px;
+    width: 641px;
+  }
+  
+  .profil .group-5 {
+    height: 21px;
+    left: 431px;
+    position: absolute;
+    top: 50px;
+    width: 20px;
+  }
+  
+  .profil .vector-9 {
+    height: 16px;
+    left: 397px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .vector-10 {
+    height: 16px;
+    left: 434px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .vector-11 {
+    height: 16px;
+    left: 415px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .vector-12 {
+    height: 16px;
+    left: 452px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .vector-13 {
+    height: 16px;
+    left: 470px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .text-wrapper-29 {
+    color: #567bff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    height: 18px;
+    left: 382px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 81px;
+    white-space: nowrap;
+  }
+  
+  .profil .group-6 {
+    height: 242px;
+    left: 2040px;
+    position: absolute;
+    top: 23px;
+    width: 641px;
+  }
+  
+  .profil .vector-14 {
+    height: 16px;
+    left: 403px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .vector-15 {
+    height: 16px;
+    left: 440px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .vector-16 {
+    height: 16px;
+    left: 422px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .vector-17 {
+    height: 16px;
+    left: 458px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .vector-18 {
+    height: 16px;
+    left: 476px;
+    position: absolute;
+    top: 101px;
+    width: 16px;
+  }
+  
+  .profil .text-wrapper-30 {
+    color: #567bff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    height: 18px;
+    left: 394px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 81px;
+    white-space: nowrap;
+  }
+  
+  .profil .overlap-14 {
+    height: 602px;
+    left: 546px;
+    position: absolute;
+    top: 2815px;
+    width: 789px;
+  }
+  
+  .profil .element {
+    height: 310px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 463px;
+  }
+  
+  .profil .element-2 {
+    height: 262px;
+    left: 398px;
+    object-fit: cover;
+    position: absolute;
+    top: 151px;
+    width: 391px;
+  }
+  
+  .profil .element-3 {
+    height: 262px;
+    left: 72px;
+    object-fit: cover;
+    position: absolute;
+    top: 340px;
+    width: 391px;
+  }
+  
+  .profil .group-7 {
+    height: 41px;
+    left: 621px;
+    position: absolute;
+    top: 360px;
+    width: 158px;
+  }
+  
+  .profil .overlap-15 {
+    background-color: #00000073;
+    border-radius: 6px;
+    height: 41px;
+    position: relative;
+    width: 156px;
+  }
+  
+  .profil .text-wrapper-31 {
+    color: #ffffff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    height: 26px;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: 25.5px;
+    position: absolute;
+    top: 7px;
+    white-space: nowrap;
+  }
+  
+  .profil .header {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 130px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .profil .group-8 {
+    height: 103px;
+    left: 41px;
+    position: absolute;
+    top: 5px;
+    width: 185px;
+  }
+  
+  .profil .overlap-group-6 {
+    height: 103px;
+    position: relative;
+    width: 183px;
+  }
+  
+  .profil .bulukumba-logo {
+    height: 84px;
+    left: 26px;
+    position: absolute;
+    top: 0;
+    width: 123px;
+  }
+  
+  .profil .discoverbulukumba-2 {
+    color: transparent;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    height: 21px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: absolute;
+    top: 82px;
+    white-space: nowrap;
+  }
+  
+  .profil .text-wrapper-32 {
+    color: #567bff;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 23px;
+    font-weight: 600;
+    height: 35px;
+    left: 411px;
+    letter-spacing: 0;
+    line-height: 34.5px;
+    position: absolute;
+    top: 48px;
+    white-space: nowrap;
+  }
+  
+  .profil .text-wrapper-33 {
+    color: #567bff;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 23px;
+    font-weight: 600;
+    height: 35px;
+    left: 812px;
+    letter-spacing: 0;
+    line-height: 34.5px;
+    position: absolute;
+    top: 48px;
+    white-space: nowrap;
+  }
+  
+  .profil .text-wrapper-34 {
+    color: #567bff;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 23px;
+    font-weight: 600;
+    height: 35px;
+    left: 964px;
+    letter-spacing: 0;
+    line-height: 34.5px;
+    position: absolute;
+    top: 48px;
+    white-space: nowrap;
+  }
+  
+  .profil .search-bar {
+    height: 49px !important;
+    left: 1193px !important;
+    position: absolute !important;
+    top: 45px !important;
+    width: 47px !important;
+  }
+  
+  .profil .logos-whatsapp-icon-2 {
+    height: 42px;
+    left: 1371px;
+    position: absolute;
+    top: 44px;
+    width: 42px;
+  }
+  
+  .profil .layanan-instance {
+    left: 599px !important;
+    position: absolute !important;
+    top: 49px !important;
+  }
+  
+  .profil .language-instance {
+    left: 1258px !important;
+    position: absolute !important;
+    top: 44px !important;
+  }
+  
+  .profil .skill-icons-2 {
+    height: 36px;
+    left: 1319px;
+    position: absolute;
+    top: 47px;
+    width: 36px;
+  }
+  
+  .profil .logos-whatsapp-icon-3 {
+    height: 50px;
+    left: 1364px;
+    position: fixed;
+    top: 702px;
+    width: 50px;
+  }
+  
+  .profil .entypo-price-tag-2 {
+    height: 70px;
+    left: 323px;
+    position: fixed;
+    top: 1601px;
+    width: 84px;
+  }
+  

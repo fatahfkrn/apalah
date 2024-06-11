@@ -11,7 +11,7 @@ import '../css/Footer.css'
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer container-fluid">
             <div className="overlap">
                 <h1 className="t-info">Info lebih lanjut</h1>
                 <p className="div">Jangan ragu untuk melihat akun media sosial kami</p>

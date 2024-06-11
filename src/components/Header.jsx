@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import logo from '../assets/logo.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { IconName } from "react-icons/bs";
-import { Container, Navbar, Nav, NavDropdown, Dropdown, Button, Row, Col, Form, Collapse, Accordion } from 'react-bootstrap';
+import { Container, Navbar, Nav, NavDropdown, Dropdown, Button, Row, Col, Form, Collapse } from 'react-bootstrap';
 import LanguageSwitcher from '../hooks/LanguageSwitcher'; // Import the LanguageSwitcher component
 // import { FaSearch } from "react-icons/fa";
 // import { SearchBar } from '../hooks/SearchBar';
@@ -82,7 +82,7 @@ const Header = () => {
         //     </Container>
         // </Navbar>
         <Navbar bg="light" data-bs-theme="light">
-            <Container>
+            <div className="container-fluid">
                 <Navbar.Brand href="#home">
                     <img
                         src={logo}
@@ -95,11 +95,11 @@ const Header = () => {
                 <Nav className="me-auto">
                     <Nav.Link><Link to='/'>Beranda</Link></Nav.Link>
                     <NavDropdown title="Layanan" id="basic-nav-dropdown" style={{ Color: '#3B71CA' }}>
-                        
-                        
-                        
+
+
+
                         <NavDropdown.Item href="OTPages" className="text-primary"><Link className="text-primary" to='/OTPages'>Open Trip</Link></NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2" className="text-primary"><Link className="text-primary" to='/HotelResto'>Hotel & Resto</Link></NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.2" className="text-primary"><Link className="text-primary" to='/Hotel'>Hotel & Resto</Link></NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.3" className="text-primary"><Link className="text-primary" to='/MapDirection'>Map & Direction</Link></NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.4" className="text-primary"><Link className="text-primary" to='/ReservationContact'>Reservation & Contact</Link></NavDropdown.Item>
                     </NavDropdown>
@@ -107,50 +107,43 @@ const Header = () => {
                     <Nav.Link><Link to='/Profile'>Profile</Link>    </Nav.Link>
                 </Nav>
 
-                <Accordion defaultActiveKey={['0']} alwaysOpen>
-                    <Accordion.Item eventKey="0">
-                        <Accordion.Header></Accordion.Header>
-                        <Accordion.Body>
-                            <Form inline id="btn-collapse">
-                                <Row>
-                                    <Col xs="auto">
-                                        <Form.Control
-                                            type="text"
-                                            placeholder="Search"
-                                            className=" mr-sm-2"
-                                        />
-                                    </Col>
-                                    <Col xs="auto">
-                                        <LanguageSwitcher property1="default" className="language-switcher" />
-                                    </Col>
-                                    <Col xs="auto">
-                                        <Navbar.Brand href="#">
-                                            <img
-                                                src={ig}
-                                                width="40"
-                                                height="40"
-                                                className="d-inline-block align-top"
-                                                alt="React Bootstrap logo"
-                                            />
-                                        </Navbar.Brand>
-                                    </Col>
-                                    <Col xs="auto">
-                                        <Navbar.Brand href="#home">
-                                            <img
-                                                src={wa}
-                                                width="40"
-                                                height="40"
-                                                className="d-inline-block align-top"
-                                                alt="React Bootstrap logo"
-                                            />
-                                        </Navbar.Brand>
-                                    </Col>
-                                </Row>
-                            </Form>
-                        </Accordion.Body>
-                    </Accordion.Item>
-                </Accordion>
-            </Container>
+                <Form inline id="btn-collapse">
+                    <Row>
+                        <Col xs="auto">
+                            <Form.Control
+                                type="text"
+                                placeholder="Search"
+                                className=" mr-sm-2"
+                            />
+                        </Col>
+                        <Col xs="auto">
+                            <LanguageSwitcher property1="default" className="language-switcher" />
+                        </Col>
+                        <Col xs="auto">
+                            <Navbar.Brand href="#">
+                                <img
+                                    src={ig}
+                                    width="40"
+                                    height="40"
+                                    className="d-inline-block align-top"
+                                    alt="React Bootstrap logo"
+                                />
+                            </Navbar.Brand>
+                        </Col>
+                        <Col xs="auto">
+                            <Navbar.Brand href="#home">
+                                <img
+                                    src={wa}
+                                    width="40"
+                                    height="40"
+                                    className="d-inline-block align-top"
+                                    alt="React Bootstrap logo"
+                                />
+                            </Navbar.Brand>
+                        </Col>
+                    </Row>
+                </Form>
+            </div>
         </Navbar>
     );
 };

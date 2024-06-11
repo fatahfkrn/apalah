@@ -1,99 +1,119 @@
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable no-unused-vars */
 import React from "react";
-import { Language } from "./Language";
-import { Layanan } from "./Layanan";
-import { SearchBar } from "./SearchBar";
-import "./pageberita.css";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
-export const BlogPageArtikel = () => {
+const PageArtikel = () => {
   return (
-    <div className="blog-page-artikel">
-      <div className="div-2">
-        <footer className="footer">
-          <div className="overlap">
-            <div className="text-wrapper-6">INFO LEBIH LANJUT</div>
-            <p className="p">Jangan Ragu Untuk Melihat Akun Media Sosial Kami.</p>
+    <div className="flex flex-col bg-white">
+      <Header />
+      <div className="flex overflow-hidden relative flex-col items-center px-16 pt-20 w-full font-black text-white leading-[150%] min-h-[525px] max-md:px-5 max-md:max-w-full">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/24f21db0e7b7e291dc4c079f7d9480a8bb66518a832a2bb6aa653a35408e3707?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/24f21db0e7b7e291dc4c079f7d9480a8bb66518a832a2bb6aa653a35408e3707?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/24f21db0e7b7e291dc4c079f7d9480a8bb66518a832a2bb6aa653a35408e3707?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/24f21db0e7b7e291dc4c079f7d9480a8bb66518a832a2bb6aa653a35408e3707?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/24f21db0e7b7e291dc4c079f7d9480a8bb66518a832a2bb6aa653a35408e3707?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/24f21db0e7b7e291dc4c079f7d9480a8bb66518a832a2bb6aa653a35408e3707?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/24f21db0e7b7e291dc4c079f7d9480a8bb66518a832a2bb6aa653a35408e3707?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/24f21db0e7b7e291dc4c079f7d9480a8bb66518a832a2bb6aa653a35408e3707?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+          className="object-cover absolute inset-0 size-full"
+        />
+        <div className="flex relative z-10 flex-col items-center mt-20 max-w-full w-[767px] max-md:mt-10">
+          <div className="self-stretch text-5xl max-md:max-w-full max-md:text-4xl">
+            BLOG TERBARU <span className="">BULUKUMBA</span>
           </div>
-          <img className="skill-icons" alt="Skill icons" src="skill-icons-instagram.svg" />
-          <img className="logos-whatsapp-icon" alt="Logos whatsapp icon" src="logos-whatsapp-icon.svg" />
-          <img className="logos-facebook" alt="Logos facebook" src="logos-facebook.svg" />
-          <img className="streamline-web" alt="Streamline web" src="streamline-web.svg" />
-          <div className="group">
-            <div className="overlap-group-3">
-              <p className="text-wrapper-7">2024 Discover Bulukumba. All Rights Reserved</p>
-              <img className="mdi-copyright" alt="Mdi copyright" src="mdi-copyright.svg" />
+          <div className="mt-1.5 text-lg font-bold max-md:max-w-full">
+            Temukan Kabar Terbaru Dari Destinasi Wisatamu
+          </div>
+          <div className="flex gap-5 justify-between mt-44 text-xl text-center max-md:flex-wrap max-md:mt-10">
+            <div className="justify-center px-12 py-8 bg-orange-500 rounded-xl border border-orange-500 border-solid max-md:px-5">
+              <Link to='/Blog'>Berita{" "}</Link>
             </div>
-          </div>
-          <img className="mage-tiktok-circle" alt="Mage tiktok circle" src="mage-tiktok-circle.svg" />
-        </footer>
-        <img className="rectangle-4" alt="Rectangle" src="rectangle-58.png" />
-        <div className="overlap-2">
-          <img className="image" alt="Image" src="image-10.png" />
-          <div className="rectangle-5" />
-          <p className="BLOG-TERBARU">
-            <span className="span">BLOG TERBARU </span>
-            <span className="text-wrapper-8">BULUKUMBA</span>
-          </p>
-          <p className="text-wrapper-9">Temukan Kabar Terbaru Dari Destinasi Wisatamu</p>
-          <div className="text-wrapper-10">Berita</div>
-          <div className="overlap-wrapper">
-            <div className="div-wrapper">
-              <div className="text-wrapper-11">Artikel</div>
+            <div className="justify-center px-11 py-8 text-orange-500 whitespace-nowrap bg-white rounded-xl border border-white border-solid max-md:px-5">
+              Artikel
             </div>
-          </div>
-          <div className="overlap-group-wrapper">
-            <div className="div-wrapper">
-              <div className="text-wrapper-12">Event</div>
+            <div className="justify-center px-12 py-8 whitespace-nowrap bg-orange-500 rounded-xl border border-orange-500 border-solid max-md:px-5">
+              <Link to='/BlogEvent'>Event</Link>
             </div>
           </div>
         </div>
-        <p className="bulukumba-dinobatkan">
-          Bulukumba Dinobatkan Menjadi Destinasi Wisata Terbaik&nbsp;&nbsp;Di Sulawesi Selatan
-        </p>
-        <div className="text-wrapper-13">Destinasi Wisata Terbaik 2022-2024</div>
-        <div className="text-wrapper-14">Aria Wardana (2024)</div>
-        <div className="text-wrapper-15">13 Desember 2023</div>
-        <div className="text-wrapper-16">9:00 WIB</div>
-        <div className="text-wrapper-17">Events / Update</div>
-        <p className="text-wrapper-18">
-          Bulukumba diakui sebagai destinasi wisata terbaik di Sulawesi Selatan, memperoleh penghargaan yang mengukuhkan
-          posisinya dalam industri pariwisata lokal. Keindahan alamnya yang menakjubkan dan beragamnya atraksi wisata
-          yang ditawarkan telah menarik perhatian wisatawan dari dalam dan luar negeri, menjadikannya sebagai tujuan
-          yang sangat diminati bagi para pelancong yang ingin mengeksplorasi kekayaan budaya dan alam Sulawesi Selatan.
-        </p>
-        <p className="text-wrapper-19">
-          Penghargaan ini diberikan berdasarkan berbagai kriteria, termasuk pengelolaan destinasi, fasilitas wisata, dan
-          keberlanjutan lingkungan. Bulukumba dikenal dengan pantai-pantainya yang mempesona seperti Pantai Tanjung
-          Bira, serta warisan budaya yang kaya, seperti perahu phinisi yang legendaris. Upaya pemerintah daerah dalam
-          meningkatkan infrastruktur dan promosi pariwisata juga berperan penting dalam pencapaian ini. Dengan
-          pencapaian ini, Bulukumba diharapkan dapat semakin meningkatkan jumlah kunjungan wisatawan dan memberikan
-          dampak positif bagi perekonomian lokal.
-        </p>
-        <img className="ph-calendar-bold" alt="Ph calendar bold" src="ph-calendar-bold.svg" />
-        <img className="mingcute-time-fill" alt="Mingcute time fill" src="mingcute-time-fill.svg" />
-        <img className="material-symbols-tag" alt="Material symbols tag" src="material-symbols-tag.svg" />
-        <img className="rectangle-6" alt="Rectangle" src="rectangle-59.png" />
-        <div className="header">
-          <div className="group-2">
-            <div className="overlap-group-4">
-              <img className="bulukumba" alt="Bulukumba" src="bulukumba-logo1.png" />
-              <p className="discoverbulukumba">
-                <span className="text-wrapper-20">Discover</span>
-                <span className="text-wrapper-21">Bulukumba.Com</span>
-              </p>
-            </div>
-          </div>
-          <div className="text-wrapper-22">Beranda</div>
-          <div className="text-wrapper-23">Blog</div>
-          <div className="text-wrapper-24">Profil</div>
-          <SearchBar className="search-bar" />
-          <img className="logos-whatsapp-icon-2" alt="Logos whatsapp icon" src="image.svg" />
-          <Layanan className="layanan-instance" polygon="polygon-2-5.svg" property1="default" />
-          <Language className="language-instance" polygon="polygon-2-6.svg" property1="default" />
-          <img className="skill-icons-2" alt="Skill icons" src="skill-icons-instagram-2.svg" />
-        </div>
-        <img className="logos-whatsapp-icon-3" alt="Logos whatsapp icon" src="logos-whatsapp-icon-2.svg" />
       </div>
+      <div className="flex flex-col items-start self-center mt-7 w-full text-base font-semibold leading-6 max-w-[1216px] text-neutral-400 max-md:max-w-full">
+        <div className="flex gap-5 justify-between self-center w-full font-light max-w-[1016px] max-md:flex-wrap max-md:max-w-full">
+          <div className="flex flex-col max-md:max-w-full">
+            <img
+              loading="lazy"
+              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/3fbb286c62f3ecaa3bb79150bd8779a8494a8b34713c8ea830ad6999f94b1cfc?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/3fbb286c62f3ecaa3bb79150bd8779a8494a8b34713c8ea830ad6999f94b1cfc?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3fbb286c62f3ecaa3bb79150bd8779a8494a8b34713c8ea830ad6999f94b1cfc?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/3fbb286c62f3ecaa3bb79150bd8779a8494a8b34713c8ea830ad6999f94b1cfc?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/3fbb286c62f3ecaa3bb79150bd8779a8494a8b34713c8ea830ad6999f94b1cfc?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3fbb286c62f3ecaa3bb79150bd8779a8494a8b34713c8ea830ad6999f94b1cfc?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/3fbb286c62f3ecaa3bb79150bd8779a8494a8b34713c8ea830ad6999f94b1cfc?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/3fbb286c62f3ecaa3bb79150bd8779a8494a8b34713c8ea830ad6999f94b1cfc?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+              className="w-full shadow-sm aspect-[1.37] max-md:max-w-full"
+            />
+            <div className="self-center mt-4 italic">
+              Pantai Bidadari - Jovita 2023
+            </div>
+          </div>
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/978e96ce2fcfeb3cce0ea2e02d45eeb3ccd36799b50839ff9c192c87e3b9658a?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+            className="shrink-0 self-start mt-5 aspect-square w-[50px]"
+          />
+        </div>
+        <div className="self-stretch mt-16 text-3xl font-black text-orange-500 max-md:mt-10 max-md:max-w-full">
+          Menelusuri Kecantikan Pantai Bidadari Bersama Kak Jovita
+        </div>
+        <div className="flex gap-5 justify-between mt-11 max-md:flex-wrap max-md:mt-10">
+          <div className="flex gap-2 my-auto">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/7838bc9a24fac139ab3dee2413a3d693fb18302e9f487dbeacafbf7dbfa918de?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+              className="shrink-0 w-5 aspect-square"
+            />
+            <div className="flex-auto my-auto">13 Desember 2023</div>
+          </div>
+          <div className="flex gap-1">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/d54344eaa30240f6eeecf78e3bdfcaba2589d0f1645f08e96425d2b42cfa6f9d?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+              className="shrink-0 w-6 aspect-square"
+            />
+            <div className="my-auto">9:00 WIB</div>
+          </div>
+          <div className="flex gap-px">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/b21639f07a8b88a2a87d71bc2a706bec77be4d8e49d53844b6c388a9a07d4954?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+              className="shrink-0 w-6 aspect-square"
+            />
+            <div className="flex-auto my-auto">Events / Update</div>
+          </div>
+        </div>
+        <div className="mt-4 ml-3 leading-6 text-justify text-black max-md:max-w-full">
+          Pantai Bidadari, salah satu permata tersembunyi di Sulawesi Selatan,
+          semakin populer berkat kunjungan selebriti dan influencer pariwisata,
+          Kak Jovita. Dikenal dengan pasir putihnya yang halus dan air laut yang
+          jernih, Pantai Bidadari menawarkan panorama alam yang menakjubkan dan
+          suasana yang menenangkan. Kak Jovita, yang terkenal dengan petualangan
+          wisatanya, berbagi pengalaman serunya menjelajahi keindahan pantai ini
+          melalui media sosial, menginspirasi banyak pengikutnya untuk
+          mengunjungi tempat ini.
+        </div>
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/7f7a5d1ce2e3054b8b0780ab245f5bbf97ba3d91e8423099405cf1e5c3d0aa96?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7f7a5d1ce2e3054b8b0780ab245f5bbf97ba3d91e8423099405cf1e5c3d0aa96?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7f7a5d1ce2e3054b8b0780ab245f5bbf97ba3d91e8423099405cf1e5c3d0aa96?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7f7a5d1ce2e3054b8b0780ab245f5bbf97ba3d91e8423099405cf1e5c3d0aa96?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7f7a5d1ce2e3054b8b0780ab245f5bbf97ba3d91e8423099405cf1e5c3d0aa96?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7f7a5d1ce2e3054b8b0780ab245f5bbf97ba3d91e8423099405cf1e5c3d0aa96?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7f7a5d1ce2e3054b8b0780ab245f5bbf97ba3d91e8423099405cf1e5c3d0aa96?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7f7a5d1ce2e3054b8b0780ab245f5bbf97ba3d91e8423099405cf1e5c3d0aa96?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+          className="mt-5 ml-28 max-w-full shadow-sm aspect-[1.72] w-[820px]"
+        />
+        <div className="self-center mt-5 italic font-light">
+          Potret Petualang di Bulukumba
+        </div>
+        <div className="mt-10 ml-3 leading-6 text-justify text-black max-md:max-w-full">
+          Dalam perjalanan kali ini, Kak Jovita tidak hanya menikmati keindahan
+          alam Pantai Bidadari, tetapi juga berinteraksi dengan masyarakat
+          setempat dan memperkenalkan budaya serta tradisi mereka. Ia
+          mengunjungi beberapa spot terbaik untuk berfoto, mencicipi kuliner
+          khas daerah, dan belajar tentang upaya konservasi lingkungan yang
+          dilakukan oleh komunitas lokal. Pengalaman Kak Jovita di Pantai
+          Bidadari menggambarkan betapa luar biasanya potensi wisata alam di
+          Sulawesi Selatan, sekaligus mengajak lebih banyak wisatawan untuk ikut
+          menjaga dan melestarikan keindahan alam Indonesia.
+        </div>
+      </div>
+      <Footer />
     </div>
   );
-};
+}
+export default PageArtikel;
+
