@@ -255,7 +255,7 @@ const OpenPage = () => {
                 baca terlebih dahulu untuk memastikan.
             </div>
             <div className="justify-center text-center w-[30%] items-center px-16 py-7 mt-3.5 w-full text-2xl font-extrabold leading-10 text-white whitespace-nowrap rounded-lg shadow-sm bg-orange-500 bg-opacity-80 max-w-[1245px] max-md:px-5 max-md:max-w-full">
-                <Link to='/DetailPemesanan'>Pesan Sekarang</Link>
+                <Link to='/Login'>Pesan Sekarang</Link>
             </div>
             <Footer />
         </div>

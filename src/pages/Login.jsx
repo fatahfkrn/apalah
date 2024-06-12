@@ -1,8 +1,40 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import axios from "axios";
+// import { toast } from "react-toastify";
+// import { useUser } from "./UserContext";
+import AuthButton from "../components/AuthBtn";
+
+
 
 const Login = () => {
+
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const navigate = useNavigate();
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        // Save user details to localStorage
+        localStorage.setItem(
+            "user",
+            JSON.stringify({ name: "Nabila N", email: "nabilanor@gmail.com", password: "qwertyuiop" })
+        );
+
+        // Redirect user to "/"
+        navigate("/");
+
+    };
+    useEffect(() => {
+        const userData = localStorage.getItem("user");
+        if (userData) {
+            navigate("/Login");
+        }
+    }, []);
+
     return (
         <div className="bg-white">
             <div className="flex gap-5 max-md:flex-col max-md:gap-0">
@@ -37,24 +69,62 @@ const Login = () => {
                         <div className="mt-2.5 font-light text-neutral-400 max-md:max-w-full">
                             Let’s get started with your holiday
                         </div>
-                        <div className="mt-16 text-black max-md:mt-10 max-md:max-w-full">
-                            Email
-                        </div>
-                        <div className="mt-5 text-sm tracking-wide underline text-stone-600 max-md:max-w-full">
-                            andinurfitriana@apps.ipb.ac.id
-                        </div>
-                        <div className="shrink-0 mt-2 h-px bg-black border border-black border-solid max-md:max-w-full" />
-                        <div className="mt-9 text-black max-md:max-w-full">Password</div>
-                        <div className="mt-5 text-sm tracking-wide text-stone-600 max-md:max-w-full">
-                            ********
-                        </div>
-                        <div className="shrink-0 mt-4 h-px bg-black border border-black border-solid max-md:max-w-full" />
-                        <div className="justify-center text-center px-16 py-6 mt-16 text-xl font-medium tracking-wide text-white whitespace-nowrap bg-orange-500 rounded-3xl max-md:px-5 max-md:mt-10 max-md:max-w-full">
-                            <Link to='/'>Login</Link>
-                        </div>
-                        <div className="self-center mt-30 text-xl font-semibold tracking-wide text-orange-500 max-md:mt-10">
-                            <span className="text-base ">Already have an account? </span>{" "}
-                            <span className="font-medium text-orange-500">Sign up</span>
+                        <form onSubmit={handleSubmit} className="w-full mx-auto">
+                            <div className="relative mb-3 my-5">
+                                <label
+                                    htmlFor="email"
+                                    className="block mb-1 font-medium md:mb-2">
+                                    Email
+                                </label>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    value={email}
+                                    autoComplete="email"
+                                    onChange={(e) => setEmail(e.target.value)}
+                                    id="email"
+                                    className="block bg-light w-full px-3 py-2 border-2 ps-12 border-c1b"
+                                    placeholder="youremail@email.com"
+                                />
+                            </div>
+
+                            <div className="relative mb-5">
+                                <label
+                                    htmlFor="password"
+                                    className="block mb-1 font-medium md:mb-2">
+                                    Password
+                                </label>
+                                <input
+                                    value={password}
+                                    onChange={(e) => setPassword(e.target.value)}
+                                    type="password"
+                                    id="password-icon"
+                                    className="block bg-light w-full px-3 py-2 border-2 ps-12 border-c1b"
+                                    placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;"
+                                />
+                            </div>
+                            <div className="text-sm">
+                                <a
+                                    href="#"
+                                    className="font-semibold text-primary600 hover:text-primary700"
+                                >
+                                    Forgot password?
+                                </a>
+                            </div>
+                            {/* <AuthButton type="submit" label="Masuk" /> */}
+                            <button type="submit" className="justify-center my-4 py-3 mt-3 items-center px-16 text-xl font-medium tracking-wide text-white whitespace-nowrap bg-orange-500 rounded-3xl ml-[100px] w-[50%px]">
+                                Login
+                            </button>
+                        </form>
+                        <div className="self-center mt-30 text-xl font-semibold sans-serif max-md:mt-10">
+                            <span className="text-base ">Tidak Punya Akun? </span>{" "}
+                            <a
+                                href="/Regis"
+                                className="font-semibold leading-6 text-orange700 hover:text-primary700"
+                            >
+                                Daftar Sekarang!
+                            </a>
+
                         </div>
                     </div>
                 </div>
