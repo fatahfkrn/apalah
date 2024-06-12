@@ -72,37 +72,13 @@ const OpenTrip = () => {
         //         ))}
         //     </Row>
         // </div>
-        <>
-            <div className="self-center px-5 mt-8 w-full max-w-[1302px] max-md:max-w-full">
-                <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-                    <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
-                        <img
-                            loading="lazy"
-                            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0006db1b3b8115592e8ac96517404d3e3ad14ff67ccf7bd0ec81cd1b5c8178d8?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0006db1b3b8115592e8ac96517404d3e3ad14ff67ccf7bd0ec81cd1b5c8178d8?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0006db1b3b8115592e8ac96517404d3e3ad14ff67ccf7bd0ec81cd1b5c8178d8?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0006db1b3b8115592e8ac96517404d3e3ad14ff67ccf7bd0ec81cd1b5c8178d8?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0006db1b3b8115592e8ac96517404d3e3ad14ff67ccf7bd0ec81cd1b5c8178d8?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0006db1b3b8115592e8ac96517404d3e3ad14ff67ccf7bd0ec81cd1b5c8178d8?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0006db1b3b8115592e8ac96517404d3e3ad14ff67ccf7bd0ec81cd1b5c8178d8?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0006db1b3b8115592e8ac96517404d3e3ad14ff67ccf7bd0ec81cd1b5c8178d8?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
-                            className="grow shrink-0 max-w-full aspect-[0.8] w-[295px] max-md:mt-10"
-                        />
-                    </div>
-                    <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-                        <img
-                            loading="lazy"
-                            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/1fa6db5d26d59fd0147aab54b6967ba0a2850947112dd62284a2822603ec5951?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/1fa6db5d26d59fd0147aab54b6967ba0a2850947112dd62284a2822603ec5951?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1fa6db5d26d59fd0147aab54b6967ba0a2850947112dd62284a2822603ec5951?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/1fa6db5d26d59fd0147aab54b6967ba0a2850947112dd62284a2822603ec5951?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/1fa6db5d26d59fd0147aab54b6967ba0a2850947112dd62284a2822603ec5951?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1fa6db5d26d59fd0147aab54b6967ba0a2850947112dd62284a2822603ec5951?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/1fa6db5d26d59fd0147aab54b6967ba0a2850947112dd62284a2822603ec5951?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/1fa6db5d26d59fd0147aab54b6967ba0a2850947112dd62284a2822603ec5951?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
-                            className="grow shrink-0 max-w-full aspect-[0.8] w-[295px] max-md:mt-10"
-                        />
-                    </div>
-                    <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-                        <img
-                            loading="lazy"
-                            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/d2375f47bd17a9196fbf9a71ac3a72769fb44c12a3ca19347510ae8ca0704289?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d2375f47bd17a9196fbf9a71ac3a72769fb44c12a3ca19347510ae8ca0704289?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d2375f47bd17a9196fbf9a71ac3a72769fb44c12a3ca19347510ae8ca0704289?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d2375f47bd17a9196fbf9a71ac3a72769fb44c12a3ca19347510ae8ca0704289?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d2375f47bd17a9196fbf9a71ac3a72769fb44c12a3ca19347510ae8ca0704289?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d2375f47bd17a9196fbf9a71ac3a72769fb44c12a3ca19347510ae8ca0704289?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d2375f47bd17a9196fbf9a71ac3a72769fb44c12a3ca19347510ae8ca0704289?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d2375f47bd17a9196fbf9a71ac3a72769fb44c12a3ca19347510ae8ca0704289?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
-                            className="grow shrink-0 max-w-full aspect-[0.8] w-[295px] max-md:mt-10"
-                        />
-                    </div>
-                    <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-                        <img
-                            loading="lazy"
-                            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/9d1f32031e4fa80bf863a8ffbe9cc28dc7fce0fc3e883717bafb8f822c09d5cd?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d1f32031e4fa80bf863a8ffbe9cc28dc7fce0fc3e883717bafb8f822c09d5cd?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d1f32031e4fa80bf863a8ffbe9cc28dc7fce0fc3e883717bafb8f822c09d5cd?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d1f32031e4fa80bf863a8ffbe9cc28dc7fce0fc3e883717bafb8f822c09d5cd?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d1f32031e4fa80bf863a8ffbe9cc28dc7fce0fc3e883717bafb8f822c09d5cd?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d1f32031e4fa80bf863a8ffbe9cc28dc7fce0fc3e883717bafb8f822c09d5cd?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d1f32031e4fa80bf863a8ffbe9cc28dc7fce0fc3e883717bafb8f822c09d5cd?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d1f32031e4fa80bf863a8ffbe9cc28dc7fce0fc3e883717bafb8f822c09d5cd?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
-                            className="grow shrink-0 max-w-full aspect-[0.8] w-[295px] max-md:mt-10"
-                        />
-                    </div>
+        <div className="flex flex-col items-center bg-white">
+            <div className="gap-5 self-end mt-5 mr-7 max-w-full text-7xl font-black text-orange-500 leading-[106.5px] w-[868px] max-md:flex-wrap max-md:mr-2.5 max-md:text-4xl">
+                <div className="flex-auto text-center border-white border-solid border-[3px] max-md:text-4xl">
+                    OPEN TRIP{" "}
+                </div>
+                <div className="text-lg text-center font-bold leading-6 text-indigo-500">
+                    Khusus Kamu Yang Ingin Menghabiskan WEEKEND Bersama Keluarga
                 </div>
             </div>
             <div className="self-center px-5 mt-8 w-full max-w-[1302px] max-md:max-w-full">
@@ -137,7 +113,39 @@ const OpenTrip = () => {
                     </div>
                 </div>
             </div>
-        </>
+            <div className="self-center px-5 mt-8 w-full max-w-[1302px] max-md:max-w-full">
+                <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                    <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                        <img
+                            loading="lazy"
+                            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0006db1b3b8115592e8ac96517404d3e3ad14ff67ccf7bd0ec81cd1b5c8178d8?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0006db1b3b8115592e8ac96517404d3e3ad14ff67ccf7bd0ec81cd1b5c8178d8?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0006db1b3b8115592e8ac96517404d3e3ad14ff67ccf7bd0ec81cd1b5c8178d8?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0006db1b3b8115592e8ac96517404d3e3ad14ff67ccf7bd0ec81cd1b5c8178d8?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0006db1b3b8115592e8ac96517404d3e3ad14ff67ccf7bd0ec81cd1b5c8178d8?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0006db1b3b8115592e8ac96517404d3e3ad14ff67ccf7bd0ec81cd1b5c8178d8?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0006db1b3b8115592e8ac96517404d3e3ad14ff67ccf7bd0ec81cd1b5c8178d8?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0006db1b3b8115592e8ac96517404d3e3ad14ff67ccf7bd0ec81cd1b5c8178d8?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+                            className="grow shrink-0 max-w-full aspect-[0.8] w-[295px] max-md:mt-10"
+                        />
+                    </div>
+                    <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+                        <img
+                            loading="lazy"
+                            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/1fa6db5d26d59fd0147aab54b6967ba0a2850947112dd62284a2822603ec5951?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/1fa6db5d26d59fd0147aab54b6967ba0a2850947112dd62284a2822603ec5951?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1fa6db5d26d59fd0147aab54b6967ba0a2850947112dd62284a2822603ec5951?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/1fa6db5d26d59fd0147aab54b6967ba0a2850947112dd62284a2822603ec5951?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/1fa6db5d26d59fd0147aab54b6967ba0a2850947112dd62284a2822603ec5951?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1fa6db5d26d59fd0147aab54b6967ba0a2850947112dd62284a2822603ec5951?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/1fa6db5d26d59fd0147aab54b6967ba0a2850947112dd62284a2822603ec5951?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/1fa6db5d26d59fd0147aab54b6967ba0a2850947112dd62284a2822603ec5951?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+                            className="grow shrink-0 max-w-full aspect-[0.8] w-[295px] max-md:mt-10"
+                        />
+                    </div>
+                    <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+                        <img
+                            loading="lazy"
+                            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/d2375f47bd17a9196fbf9a71ac3a72769fb44c12a3ca19347510ae8ca0704289?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d2375f47bd17a9196fbf9a71ac3a72769fb44c12a3ca19347510ae8ca0704289?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d2375f47bd17a9196fbf9a71ac3a72769fb44c12a3ca19347510ae8ca0704289?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d2375f47bd17a9196fbf9a71ac3a72769fb44c12a3ca19347510ae8ca0704289?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d2375f47bd17a9196fbf9a71ac3a72769fb44c12a3ca19347510ae8ca0704289?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d2375f47bd17a9196fbf9a71ac3a72769fb44c12a3ca19347510ae8ca0704289?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d2375f47bd17a9196fbf9a71ac3a72769fb44c12a3ca19347510ae8ca0704289?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d2375f47bd17a9196fbf9a71ac3a72769fb44c12a3ca19347510ae8ca0704289?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+                            className="grow shrink-0 max-w-full aspect-[0.8] w-[295px] max-md:mt-10"
+                        />
+                    </div>
+                    <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+                        <img
+                            loading="lazy"
+                            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/9d1f32031e4fa80bf863a8ffbe9cc28dc7fce0fc3e883717bafb8f822c09d5cd?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d1f32031e4fa80bf863a8ffbe9cc28dc7fce0fc3e883717bafb8f822c09d5cd?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d1f32031e4fa80bf863a8ffbe9cc28dc7fce0fc3e883717bafb8f822c09d5cd?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d1f32031e4fa80bf863a8ffbe9cc28dc7fce0fc3e883717bafb8f822c09d5cd?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d1f32031e4fa80bf863a8ffbe9cc28dc7fce0fc3e883717bafb8f822c09d5cd?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d1f32031e4fa80bf863a8ffbe9cc28dc7fce0fc3e883717bafb8f822c09d5cd?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d1f32031e4fa80bf863a8ffbe9cc28dc7fce0fc3e883717bafb8f822c09d5cd?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d1f32031e4fa80bf863a8ffbe9cc28dc7fce0fc3e883717bafb8f822c09d5cd?apiKey=fa934a50622b4d5eb8776b9e7c85bd87&"
+                            className="grow shrink-0 max-w-full aspect-[0.8] w-[295px] max-md:mt-10"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     );
